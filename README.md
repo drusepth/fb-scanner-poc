@@ -15,8 +15,8 @@ to some medium; the included one connects to an IRC network and posts finds to c
 
 Future work:
 
- * Excluding "boring" domains (e.g. apps.facebook.com), highlighting interesting ones, and segmenting
-   the rest by category/market.
+ * Excluding "boring" domains (e.g. apps.facebook.com), highlighting interesting ones, and
+   segmenting the rest by category/market.
 
 See also:
  [1] http://qz.com/715019/why-you-shouldnt-share-links-on-facebook/
