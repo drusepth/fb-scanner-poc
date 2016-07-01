@@ -49,7 +49,6 @@ class MutatableId < Id
   end
 
   def mutate!
-    puts "#{@id} (started)"
     mutating_index = rand(@id.length - 1) + 1
     mutated_value  = @id[mutating_index].to_i + (rand(2).zero? ? 1 : -1)
 
@@ -58,7 +57,12 @@ class MutatableId < Id
 
     @id[mutating_index] = mutated_value.to_s
 
-    mutate! if @history.include?(@id)
+    if @history.include?(@id)
+      mutate!
+    else
+      @history << @id
+    end
+
     true
   end
 end
