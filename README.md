@@ -4,7 +4,7 @@ clicked on) from within Facebook.
 The script scans FB Graph for cached link objects, which are populated when a FB user clicks on
 a link from:
 
- * any post or comment, public or private[1] (including public and private groups)
+ * any post or comment (including private posts and and private groups[1])
  * any private message over Messenger[1]
 
 Includes two methods for scanning URLs: sequentially or with random mutation. TL;DR use the former
